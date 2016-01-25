@@ -1,0 +1,59 @@
+﻿@Model Learning8.Models.Entity
+
+
+
+@Html.Sitecore().Placeholder("header")
+
+
+@Html.Sitecore().Placeholder("main")
+
+
+@Html.Sitecore().Placeholder("footer")
+
+
+
+@*@if (Model.StepNo == 1)
+{
+
+    <div id="Sec1">
+
+        @Html.Sitecore().Placeholder("main")
+        @//Set Visibility Of Other Sections False
+        @//Ajax Call to Controller Method with Data Entered here
+
+        $.ajax({
+        url: "Test\TestAjax",
+        context: document.body
+        }).done(function() {
+        $( this ).addClass( "done" );
+        });
+
+    </div>
+}
+
+
+@if (Model.StepNo == 2)
+{
+    <div  id="Sec2">
+
+        @Html.Sitecore().Placeholder("Content2")
+        @//Set Visibility Of Other Sections False
+        @//Ajax Call to Controller Method with Data Entered here
+
+    </div>
+}
+
+
+@if (Model.StepNo == 3)
+{
+    <div  id="Sec3">
+
+        @Html.Sitecore().Placeholder("Content3")
+        @//Set Visibility Of Other Sections False
+        @ Final Action Call
+
+    </div>
+}*@
+
+
+

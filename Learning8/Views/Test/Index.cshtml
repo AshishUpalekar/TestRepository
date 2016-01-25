@@ -1,0 +1,50 @@
+﻿@model Learning8.Models.Entity
+
+<script type="text/javascript">
+
+    function myFunction()
+    {
+        alert("here123")
+        //$("Sec1").hide();
+        //document.getElementById("Sec1").style.display = "none";
+    }
+
+</script>
+
+
+<div id="Sec1">
+
+    @if (Model.StepNo == 1)
+
+    {
+        
+        @Html.Raw(ViewBag.HtmlStr)
+
+        @Html.Action("Index2", "Test")
+
+        
+
+    }
+
+</div>
+
+@*$.ajax({
+    type: "POST",
+    url: '@Url.Action("Index2", "Test")',
+    contentType: "application/json; charset=utf-8",
+    data: { a: "testing" },
+    dataType: "json",
+    success: function() { alert('Success'); },
+    error: errorFunc
+    });*@
+
+<div id="Sec2">
+
+    @if (Model.StepNo == 2)
+    {       
+
+        @Html.Raw(ViewBag.HtmlStr)
+
+    }
+</div>
+
