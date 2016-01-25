@@ -18,7 +18,7 @@ namespace Learning8.Controllers
             if (!pipelineArgs.IsValid && !string.IsNullOrEmpty(pipelineArgs.Message))
             {
                 // Execute code here to deal with failed validation
-            }
+            } 
         }
     }
 }
