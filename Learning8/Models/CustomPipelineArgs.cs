@@ -7,7 +7,7 @@ using Sitecore.Pipelines;
 
 namespace Learning8.Models
 {
-    public class CustomPipelineArgs : PipelineArgs
+    public class CustomPipelineArgs : TestPipelineArgs
     {
         private bool valid = false;
         private string message = string.Empty;
