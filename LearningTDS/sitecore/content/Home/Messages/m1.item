@@ -1,0 +1,107 @@
+----item----
+version: 1
+id: {3105123B-0CBF-454A-B8D5-AA52B7D1054F}
+database: master
+path: /sitecore/content/Home/Messages/m1
+parent: {641783AA-0EF2-4117-9503-C5CEA36E32F3}
+name: m1
+master: {00000000-0000-0000-0000-000000000000}
+template: {C5384188-D4B4-4C09-A053-094271353190}
+templatekey: CreateMessage
+
+----version----
+language: en
+version: 1
+revision: 9172230c-4068-4747-a848-7eef1a74f844
+
+----field----
+field: {CF9E819A-22AB-48E4-B1A0-308A11DF3109}
+name: Tiltle
+key: tiltle
+content-length: 13
+
+Service Break
+----field----
+field: {74C4E430-AAC4-435B-A499-DEA5E2494BB1}
+name: Description
+key: description
+content-length: 32
+
+<p>Service break for 2 Hours</p>
+----field----
+field: {93935116-480F-477E-8BED-585CBB45E9AC}
+name: System
+key: system
+content-length: 77
+
+{95ECA62D-8C83-44AB-A293-531C4FDEE82A}|{E8FCD34C-4135-4015-A766-BF085C955CFC}
+----field----
+field: {9334B4F5-5D2C-4DA3-8AE2-0DB7107CD972}
+name: Level
+key: level
+content-length: 7
+
+Problem
+----field----
+field: {683080FE-C742-4920-BE4B-40A1FE586C16}
+name: StartDate
+key: startdate
+content-length: 16
+
+20160301T193000Z
+----field----
+field: {43AD09D2-462D-4A4D-AA82-F75093186EAA}
+name: EndDate
+key: enddate
+content-length: 16
+
+20160301T203000Z
+----field----
+field: {2D86D3E9-D986-4238-917E-917CE886A3D9}
+name: Enabled
+key: enabled
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160301T065038Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9172230c-4068-4747-a848-7eef1a74f844
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160302T093207Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

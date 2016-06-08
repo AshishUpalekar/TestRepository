@@ -37,7 +37,7 @@ namespace Learning8.Controllers
             string xpath = "sitecore/item/@id";
             var nodes = xmlDoc.SelectNodes(xpath);
 
-            foreach (XmlNode childrenNode in nodes) 
+            foreach (XmlNode childrenNode in nodes)
             {
                 //childrenNode.Value
                 var item = visualSitecoreService.GetItemFields(childrenNode.Value, "en", "1", true, database, credentials);

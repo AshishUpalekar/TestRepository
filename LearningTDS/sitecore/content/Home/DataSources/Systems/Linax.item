@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {E8FCD34C-4135-4015-A766-BF085C955CFC}
+database: master
+path: /sitecore/content/Home/DataSources/Systems/Linax
+parent: {B8DE6F7F-E8E1-4C65-B8CC-B6D7B7260983}
+name: Linax
+master: {00000000-0000-0000-0000-000000000000}
+template: {1E25E592-083B-431B-BD09-40EEF0586710}
+templatekey: Systems
+
+----version----
+language: en
+version: 1
+revision: 304b0d86-2913-4e86-b6f6-83f3220eae54
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160301T064742Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+304b0d86-2913-4e86-b6f6-83f3220eae54
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160301T064742Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
