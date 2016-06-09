@@ -30,7 +30,7 @@ namespace Learning8.Controllers
 
 
             var children = visualSitecoreService.GetChildren(homeItem2, database, credentials);
-
+             
             XmlDocument xmlDoc = new XmlDocument();
             xmlDoc.LoadXml(children.ToString());
 
