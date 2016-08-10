@@ -179,6 +179,17 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="App_Config\ConnectionStrings.config" />
     <Content Include="Properties\DataSources\System.Xml.Linq.XElement.datasource" />
+    <Content Include="Docs\API Cookbook.zip" />
+    <Content Include="Docs\Client Configuration Cookbook.zip" />
+    <Content Include="Docs\Search.zip" />
+    <Content Include="Docs\Security and Roles.zip" />
+    <Content Include="Docs\Security API book.zip" />
+    <Content Include="Docs\Sitecore Recommended Docs %282%29.zip" />
+    <Content Include="Docs\Sitecore Recommended Docs.zip" />
+    <Content Include="Docs\TDS.zip" />
+    <Content Include="Docs\Workflow.zip" />
+    <Content Include="Docs\Workflows And User Roles.zip" />
+    <Content Include="Docs\Sitecore All Remaining PDFs.zip" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
