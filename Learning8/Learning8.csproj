@@ -47,6 +47,9 @@
       <HintPath>..\packages\DotNet.Highcharts.4.0\lib\DotNet.Highcharts.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Lucene.Net">
+      <HintPath>..\..\..\..\..\..\..\inetpub\wwwroot\Learning\Website\bin\Lucene.Net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -111,6 +114,8 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CRMController.cs" />
+    <Compile Include="Controllers\LuceneController.cs" />
+    <Compile Include="Controllers\LuceneSearchController.cs" />
     <Compile Include="Controllers\PipelineController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\WebServiceController.cs" />
@@ -273,6 +278,8 @@
     <Folder Include="App_Config\Prefetch\" />
     <Folder Include="App_Data\" />
     <Folder Include="Views\CRM\" />
+    <Folder Include="Views\LuceneSearch\" />
+    <Folder Include="Views\Lucene\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
